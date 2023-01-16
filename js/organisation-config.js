@@ -1,16 +1,15 @@
 // Plaats dit bestand op een centrale locatie voor hergebruik in meerdere documenten.
 var organisationConfig = {
-  nl_organisationName: "Logius",
-  nl_organisationStylesURL:
-    "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
-  nl_organisationPublishURL: "https://gitdocumentatie.logius.nl/publicatie/",
+  nl_organisationName: "Geonovum",
+  //nl_organisationStylesURL: "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
+  nl_organisationPublishURL: "https://docs.geostandaarden.nl/",
   logos: [{
-    src: "https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/figure-logius.svg",
-    alt: "Logius",
-    id: "Logius",
+    src: "https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg",
+    alt: "Geonovum",
+    id: "Geonovum",
     height: 77,
     width: 44,
-    url: "https://www.logius.nl/standaarden",
+    url: "https://www.geonovum.nl/geo-standaarden",
   }],
   
   addSectionLinks: true,
@@ -105,24 +104,27 @@ var organisationConfig = {
     nl: {
       sotd: "Status van dit document",
       def: `Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
-      wv: `Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door het TO goedgekeurde consultatieversie.`,
-      cv: `Dit is een door het TO goedgekeurde consultatieversie. Commentaar over dit document kan gestuurd worden naar `,
+      wv: `Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen goedgekeurde consultatieversie.`,
+      cv: `Dit is een goedgekeurde consultatieversie. Commentaar over dit document kan gestuurd worden naar `,
       vv: `Dit is een definitief concept van de nieuwe versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
       basis: "Dit is een document zonder officiële status.",
     },
     en: {
       sotd: "Status of This Document",
       def: `This is the definitive version of this document. Edits resulting from consultations have been applied.`,
-      wv: `This is a draft that could be altered, removed or replaced by other documents. It is not a recommendation approved by TO.`,
-      cv: `This is a proposed recommendation approved by TO. Comments regarding this document may be sent to `,
+      wv: `This is a draft that could be altered, removed or replaced by other documents. It is not an approved recommendation.`,
+      cv: `This is a proposed recommendation. Comments regarding this document may be sent to `,
       vv: `This is the definitive concept of this document. Edits resulting from consultations have been applied.`,
       basis: "This document has no official standing.",
     },
   },
 
   labelColor: {
-    def: "#154273",
-    wv: "#32a852",
+    def: "#045D9F",
+    wv: "#FF0000",
+    cv: "#045D9F",
+    vv: "#045D9F",
+    basis: "#80CC28",
   },
   licenses: {
     cc0: {
