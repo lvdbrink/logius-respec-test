@@ -1,1 +1,1 @@
-Tekst
+Tekst Test bib verwijzing [[testdoc]].

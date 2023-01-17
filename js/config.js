@@ -2,9 +2,10 @@ var respecConfig = {
   useLogo: true,
   useLabel: true,
   license: "cc0",
+  specStatus: "WV",
   //specStatus: "CV",
   //specStatus: "VV",
-  specStatus: "DEF",
+  //specStatus: "DEF",
   specType: "HR",
   pubDomain: "lvdbrink",
   shortName: "lindatest",
@@ -38,6 +39,15 @@ var respecConfig = {
   github: "https://github.com/lvdbrink/logius-respec-test",
 
 
+  localBiblio: {
+    "testdoc": {
+              href: "https://example.com",
+              title: "Example document",
+              authors: ["Linda van den Brink"],
+              date: "June 2013"
+          }
+      },
+  
   // Create PDF and link to file in header:
   // alternateFormats: [
   //     {

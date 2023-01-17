@@ -7,8 +7,8 @@ var organisationConfig = {
     src: "https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg",
     alt: "Geonovum",
     id: "Geonovum",
-    height: 77,
-    width: 44,
+    height: 67,
+    width: 132,
     url: "https://www.geonovum.nl/geo-standaarden",
   }],
   
