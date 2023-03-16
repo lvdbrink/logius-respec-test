@@ -20,6 +20,7 @@ var respecConfig = {
   previousMaturity: "VV",
  // previousPublishVersion: "0.0.1",
   content: {"ch01": "informative", "ch02": "", "mermaid": ""},
+  edDraftURI: ["https://lvdbrink.github.io/logius-respec-test"],
   editors:
     [
       {
@@ -44,6 +45,12 @@ var respecConfig = {
               href: "https://example.com",
               title: "Example document",
               authors: ["Linda van den Brink"],
+              date: "June 2013"
+          }, 
+  	"SemVer": {
+              href: "https://semver.org",
+              title: "Semantic Versioning 2.0.0",
+              authors: ["T. Preston-Werner"],
               date: "June 2013"
           }
       },

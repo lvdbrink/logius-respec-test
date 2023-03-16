@@ -11,7 +11,9 @@ var organisationConfig = {
     width: 132,
     url: "https://www.geonovum.nl/geo-standaarden",
   }],
-  
+  latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName", "/"],
+  thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
+  prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
   addSectionLinks: true,
   postProcess: [window.respecMermaid.createFigures],
 
@@ -148,12 +150,4 @@ var organisationConfig = {
     },
   },
 	
-  localBiblio: {
-	"SemVer": {
-            href: "https://semver.org",
-            title: "Semantic Versioning 2.0.0",
-            authors: ["T. Preston-Werner"],
-            date: "June 2013"
-        }
-    },
 }
